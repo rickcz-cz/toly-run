@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">TOLY running sprite</title>
+  <desc id="desc">A stylised human runner wearing a Solana-gradient cap and black sunglasses.</desc>
+  <defs>
+    <linearGradient id="solana" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#9945ff"/>
+      <stop offset="1" stop-color="#14f195"/>
+    </linearGradient>
+  </defs>
+
+  <!-- rear leg -->
+  <path d="M121 188 91 226" fill="none" stroke="#25222b" stroke-linecap="round" stroke-width="23"/>
+  <path d="M83 227h32" fill="none" stroke="#fff7ee" stroke-linecap="round" stroke-width="12"/>
+  <!-- rear arm -->
+  <path d="M122 131 87 161" fill="none" stroke="#25222b" stroke-linecap="round" stroke-width="19"/>
+  <circle cx="82" cy="165" r="11" fill="#c88766"/>
+
+  <!-- torso and jacket stripe -->
+  <path d="M116 115c18-12 50-4 59 17l11 59-70 8-16-55c-5-13 3-23 16-29Z" fill="#25222b"/>
+  <path d="m119 122 58 61" fill="none" stroke="url(#solana)" stroke-width="10"/>
+
+  <!-- front leg -->
+  <path d="m158 190 43 19" fill="none" stroke="#25222b" stroke-linecap="round" stroke-width="24"/>
+  <path d="m199 214 31 7" fill="none" stroke="#fff7ee" stroke-linecap="round" stroke-width="12"/>
+  <!-- front arm -->
+  <path d="m165 139 35-23" fill="none" stroke="#25222b" stroke-linecap="round" stroke-width="19"/>
+  <circle cx="204" cy="113" r="11" fill="#c88766"/>
+
+  <!-- head and ear -->
+  <circle cx="122" cy="77" r="40" fill="#c88766"/>
+  <path d="M87 60c-3-27 44-46 63-11l-9 12Z" fill="url(#solana)"/>
+  <path d="M114 47c20-8 41 1 49 16l-28 3Z" fill="#14f195"/>
+  <path d="M146 61h33" fill="none" stroke="#9945ff" stroke-linecap="round" stroke-width="10"/>
+  <!-- sunglasses -->
+  <path d="M101 72h54l-4 20h-18l-7-9-7 9h-18Z" fill="#111018"/>
+  <path d="M108 78h13m15 0h13" stroke="#14f195" stroke-linecap="round" stroke-width="3"/>
+  <!-- nose and smile -->
+  <path d="M162 91h7" stroke="#7e4f3f" stroke-linecap="round" stroke-width="3"/>
+  <path d="M146 106c8 7 17 8 25 3" fill="none" stroke="#7e4f3f" stroke-linecap="round" stroke-width="3"/>
+</svg>

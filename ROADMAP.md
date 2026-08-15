@@ -4,12 +4,12 @@ Tento soubor je společný zdroj pravdy pro stav projektu. Úkol označte jako h
 
 ## Celkový stav
 
-`██████░░░░ 6 %` — 9 z 139 vývojových úkolů dokončeno
+`███████░░░ 7 %` — 10 z 139 vývojových úkolů dokončeno
 
 ## Aktuálně děláme
 
 **FÁZE 2 — TOLY**  
-Úkol: Vytvořit základní sprite TOLYHO
+Úkol: Vytvořit animaci běhu
 
 ## Pravidlo aktualizace
 
@@ -37,10 +37,10 @@ Po dokončení každého úkolu vždy aktualizuj tento soubor:
 
 ## 🦊 FÁZE 2 — TOLY
 
-**Stav: 13 %** (1 / 8)
+**Stav: 25 %** (2 / 8)
 
 - [x] Navrhnout vzhled TOLYHO
-- [ ] Vytvořit základní sprite TOLYHO
+- [x] Vytvořit základní sprite TOLYHO
 - [ ] Vytvořit animaci běhu
 - [ ] Vytvořit animaci skoku
 - [ ] Vytvořit animaci zásahu
@@ -291,6 +291,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Ověřeno spuštění úvodní obrazovky v Chrome.
 - Vytvořen a propojen GitHub repozitář `rickcz-cz/toly-run`.
 - Upraven návrh TOLY: stylizovaný lidský běžec inspirovaný Anatolym Yakovenkem, s čepicí a brýlemi v solana fialové a mint barvě.
+- Přidán základní transparentní SVG sprite TOLYHO a zobrazení na úvodní obrazovce.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.

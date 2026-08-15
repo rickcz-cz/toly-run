@@ -45,6 +45,13 @@ h1 {
 
 h1 span { color: #ff7a51; }
 
+.toly-preview {
+  display: block;
+  width: min(58vw, 260px);
+  height: auto;
+  margin: 14px auto -20px;
+}
+
 .tagline {
   margin: 28px 0 0;
   font-size: clamp(0.8rem, 3.2vw, 1rem);
