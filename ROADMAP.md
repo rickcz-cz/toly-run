@@ -292,6 +292,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Vytvořen a propojen GitHub repozitář `rickcz-cz/toly-run`.
 - Upraven návrh TOLY: stylizovaný lidský běžec inspirovaný Anatolym Yakovenkem, s čepicí a brýlemi v solana fialové a mint barvě.
 - Přidán základní transparentní SVG sprite TOLYHO a zobrazení na úvodní obrazovce.
+- Upraven zobrazený sprite TOLYHO do 16bitového pixel-art stylu.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.

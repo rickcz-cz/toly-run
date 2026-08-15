@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" shape-rendering="crispEdges" role="img" aria-labelledby="title desc">
+  <title id="title">TOLY 16-bit running sprite</title>
+  <desc id="desc">A pixel-art human runner in a Solana-gradient cap and sunglasses.</desc>
+  <defs>
+    <linearGradient id="solana" x1="0" x2="1">
+      <stop offset="0" stop-color="#9945ff"/>
+      <stop offset="1" stop-color="#14f195"/>
+    </linearGradient>
+  </defs>
+
+  <!-- back arm and leg -->
+  <path d="M46 67h-8v8h-7v8h-7v8h9v-7h8v-7h9z" fill="#25222b"/>
+  <path d="M51 90h-8v8h-7v8h-8v7h17v-7h7v-8h7z" fill="#25222b"/>
+  <path d="M28 113h22v-6h-15v-5h-7z" fill="#fff7ee"/>
+
+  <!-- front leg -->
+  <path d="M67 87h9v7h8v7h8v7h8v8H91v-7h-8v-7h-8v-7h-8z" fill="#25222b"/>
+  <path d="M99 114h18v-6h-11v-5h-7z" fill="#fff7ee"/>
+
+  <!-- torso -->
+  <path d="M48 55h24v7h7v9h7v22h-7v7H51v-7h-7V69h4z" fill="#25222b"/>
+  <path d="M52 59h7v7h7v7h7v7h7v7h-7v-7h-7v-7h-7v-7h-7z" fill="url(#solana)"/>
+
+  <!-- front arm -->
+  <path d="M78 65h8v-7h7v-7h8v9h-7v7h-8v7h-8z" fill="#25222b"/>
+  <path d="M101 49h8v10h-8z" fill="#c88766"/>
+
+  <!-- neck and head -->
+  <path d="M51 47h18v12H51z" fill="#c88766"/>
+  <path d="M40 23h38v31H71v7H47v-7h-7z" fill="#c88766"/>
+  <!-- hair -->
+  <path d="M47 23h25v7h7v8H69v-5H47z" fill="#31222c"/>
+  <!-- Solana cap -->
+  <path d="M39 22h8v-7h31v7h8v9H39z" fill="url(#solana)"/>
+  <path d="M70 29h23v7H70z" fill="#9945ff"/>
+  <!-- sunglasses -->
+  <path d="M43 35h30v13H43z" fill="#111018"/>
+  <path d="M47 38h8v4h-8zm15 0h8v4h-8z" fill="#14f195"/>
+  <!-- smile -->
+  <path d="M64 52h11v3H64z" fill="#7e4f3f"/>
+</svg>

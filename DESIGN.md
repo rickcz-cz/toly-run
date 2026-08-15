@@ -27,7 +27,7 @@ The cap and jacket stripe should use a left-to-right gradient from Solana purple
 
 ## Sprite direction
 
-- Style: crisp, modern pixel-art game sprite.
+- Style: clear 16-bit pixel art with deliberate square pixels, limited shading, and hard edges.
 - Framing: side view facing right, full human body visible.
 - Background: transparent.
 - Base size: 256 × 256 pixels, designed to remain clear when displayed at 96–144 CSS pixels.
