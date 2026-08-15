@@ -4,12 +4,12 @@ Tento soubor je společný zdroj pravdy pro stav projektu. Úkol označte jako h
 
 ## Celkový stav
 
-`██████░░░░ 6 %` — 8 z 139 vývojových úkolů dokončeno
+`██████░░░░ 6 %` — 9 z 139 vývojových úkolů dokončeno
 
 ## Aktuálně děláme
 
 **FÁZE 2 — TOLY**  
-Úkol: Navrhnout vzhled TOLYHO
+Úkol: Vytvořit základní sprite TOLYHO
 
 ## Pravidlo aktualizace
 
@@ -37,9 +37,9 @@ Po dokončení každého úkolu vždy aktualizuj tento soubor:
 
 ## 🦊 FÁZE 2 — TOLY
 
-**Stav: 0 %** (0 / 8)
+**Stav: 13 %** (1 / 8)
 
-- [ ] Navrhnout vzhled TOLYHO
+- [x] Navrhnout vzhled TOLYHO
 - [ ] Vytvořit základní sprite TOLYHO
 - [ ] Vytvořit animaci běhu
 - [ ] Vytvořit animaci skoku
@@ -290,6 +290,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Inicializován Git repozitář.
 - Ověřeno spuštění úvodní obrazovky v Chrome.
 - Vytvořen a propojen GitHub repozitář `rickcz-cz/toly-run`.
+- Navržen TOLY: lišák s čepicí a brýlemi v solana fialové a mint barvě.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.
