@@ -33,6 +33,10 @@ The cap and jacket stripe should use a left-to-right gradient from Solana purple
 - Base size: 256 × 256 pixels, designed to remain clear when displayed at 96–144 CSS pixels.
 - The final sprite must contain no text, watermark, or background scene.
 
+## Gameplay scale and orientation
+
+TOLY Run is designed for **portrait orientation**. The large TOLY shown on the start screen is promotional only. During a run, TOLY should be anchored near the left side of the game area and displayed at roughly **22–28% of the screen width** (about 90–110 CSS pixels on the 390 px reference viewport). This leaves the right side clear for upcoming obstacles and gives the jump visible height. Landscape orientation is not a gameplay target.
+
 ## Animation notes
 
 The cap, glasses, jacket, and running posture must create a clear silhouette. During a run, the jacket hem and cap brim move slightly. Sunglasses stay on in every animation except the impact reaction, where they can tilt briefly.
