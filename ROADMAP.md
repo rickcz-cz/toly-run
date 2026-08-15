@@ -4,12 +4,12 @@ Tento soubor je společný zdroj pravdy pro stav projektu. Úkol označte jako h
 
 ## Celkový stav
 
-`████████░░ 8 %` — 11 z 139 vývojových úkolů dokončeno
+`█████████░ 9 %` — 12 z 139 vývojových úkolů dokončeno
 
 ## Aktuálně děláme
 
 **FÁZE 2 — TOLY**  
-Úkol: Vytvořit animaci skoku
+Úkol: Vytvořit animaci zásahu
 
 ## Pravidlo aktualizace
 
@@ -37,12 +37,12 @@ Po dokončení každého úkolu vždy aktualizuj tento soubor:
 
 ## 🦊 FÁZE 2 — TOLY
 
-**Stav: 38 %** (3 / 8)
+**Stav: 50 %** (4 / 8)
 
 - [x] Navrhnout vzhled TOLYHO
 - [x] Vytvořit základní sprite TOLYHO
 - [x] Vytvořit animaci běhu
-- [ ] Vytvořit animaci skoku
+- [x] Vytvořit animaci skoku
 - [ ] Vytvořit animaci zásahu
 - [ ] Vytvořit animaci smrti
 - [ ] Přidat jednoduché zvuky
@@ -294,6 +294,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Přidán základní transparentní SVG sprite TOLYHO a zobrazení na úvodní obrazovce.
 - Upraven zobrazený sprite TOLYHO do 16bitového pixel-art stylu.
 - Přidána dvousnímková 16bitová animace běhu TOLYHO.
+- Přidána 16bitová animace skoku; TOLY na úvodní obrazovce pravidelně běží a skáče.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.

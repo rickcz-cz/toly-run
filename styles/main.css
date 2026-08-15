@@ -53,6 +53,15 @@ h1 span { color: #ff7a51; }
   image-rendering: pixelated;
 }
 
+.toly-preview.is-jumping {
+  animation: toly-jump 680ms steps(6, end);
+}
+
+@keyframes toly-jump {
+  0%, 100% { transform: translateY(0); }
+  33%, 66% { transform: translateY(-52px); }
+}
+
 .tagline {
   margin: 28px 0 0;
   font-size: clamp(0.8rem, 3.2vw, 1rem);
