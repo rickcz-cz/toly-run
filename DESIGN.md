@@ -36,3 +36,7 @@ The cap and jacket stripe should use a left-to-right gradient from Solana purple
 ## Animation notes
 
 The cap, glasses, jacket, and running posture must create a clear silhouette. During a run, the jacket hem and cap brim move slightly. Sunglasses stay on in every animation except the impact reaction, where they can tilt briefly.
+
+## Impact reaction
+
+On a collision, TOLY flashes red briefly and shakes sideways. A simple black smartphone falls from him, tumbles once, and disappears below the game area. This is a visual response only; the collision system and life deduction will be added later.

@@ -45,11 +45,16 @@ h1 {
 
 h1 span { color: #ff7a51; }
 
+.toly-stage {
+  position: relative;
+  width: min(58vw, 260px);
+  margin: 14px auto -20px;
+}
+
 .toly-preview {
   display: block;
-  width: min(58vw, 260px);
+  width: 100%;
   height: auto;
-  margin: 14px auto -20px;
   image-rendering: pixelated;
 }
 
@@ -60,6 +65,38 @@ h1 span { color: #ff7a51; }
 @keyframes toly-jump {
   0%, 100% { transform: translateY(0); }
   33%, 66% { transform: translateY(-52px); }
+}
+
+.toly-stage.is-hit .toly-preview {
+  animation: toly-hit 620ms steps(2, end);
+}
+
+.dropped-phone {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  width: 12%;
+  aspect-ratio: 0.58;
+  opacity: 0;
+  border: 2px solid #46414e;
+  border-radius: 2px;
+  background: #09090d;
+}
+
+.dropped-phone.is-dropping {
+  animation: phone-drop 760ms steps(6, end) forwards;
+}
+
+@keyframes toly-hit {
+  0%, 100% { filter: none; transform: translateX(0); }
+  20%, 60% { filter: brightness(0) saturate(100%) invert(18%) sepia(89%) saturate(3775%) hue-rotate(351deg) brightness(108%) contrast(99%); transform: translateX(-5px); }
+  40%, 80% { filter: none; transform: translateX(5px); }
+}
+
+@keyframes phone-drop {
+  0% { opacity: 1; transform: translate(0, 0) rotate(0deg); }
+  55% { opacity: 1; transform: translate(48px, 70px) rotate(120deg); }
+  100% { opacity: 0; transform: translate(66px, 96px) rotate(180deg); }
 }
 
 .tagline {
