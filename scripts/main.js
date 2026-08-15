@@ -46,5 +46,29 @@ function playTolyHitAnimation() {
   }, 800);
 }
 
+function playTolyDeathAnimation() {
+  if (!tolyStage || reduceMotion) return;
+
+  tolyStage.classList.remove("is-dead");
+  void tolyStage.offsetWidth;
+  tolyStage.classList.add("is-dead");
+
+  for (let phoneNumber = 0; phoneNumber < 10; phoneNumber += 1) {
+    const phone = document.createElement("span");
+    phone.className = "dropped-phone is-death-phone";
+    phone.style.setProperty("--x", `${30 + Math.random() * 42}%`);
+    phone.style.setProperty("--drift", `${-90 + Math.random() * 180}px`);
+    phone.style.setProperty("--delay", `${phoneNumber * 35}ms`);
+    phone.setAttribute("aria-hidden", "true");
+    tolyStage.append(phone);
+    window.setTimeout(() => phone.remove(), 1500);
+  }
+
+  window.setTimeout(() => {
+    tolyStage.classList.remove("is-dead");
+  }, 800);
+}
+
 // Phase 3 collision detection will call this function.
 window.playTolyHitAnimation = playTolyHitAnimation;
+window.playTolyDeathAnimation = playTolyDeathAnimation;

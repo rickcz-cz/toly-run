@@ -40,3 +40,7 @@ The cap, glasses, jacket, and running posture must create a clear silhouette. Du
 ## Impact reaction
 
 On a collision, TOLY flashes red briefly and shakes sideways. A simple black smartphone falls from him, tumbles once, and disappears below the game area. This is a visual response only; the collision system and life deduction will be added later.
+
+## Death reaction
+
+After the final lost life, TOLY briefly flashes red and bursts into a compact 16-bit pixel effect. Ten simple black smartphones scatter from the burst, tumble, and fall below the screen. They do not remain in the background or bounce; the screen stays visually clean for the Game Over state.

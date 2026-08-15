@@ -4,12 +4,12 @@ Tento soubor je společný zdroj pravdy pro stav projektu. Úkol označte jako h
 
 ## Celkový stav
 
-`█████████░ 9 %` — 13 z 139 vývojových úkolů dokončeno
+`██████████ 10 %` — 14 z 139 vývojových úkolů dokončeno
 
 ## Aktuálně děláme
 
 **FÁZE 2 — TOLY**  
-Úkol: Vytvořit animaci smrti
+Úkol: Přidat jednoduché zvuky
 
 ## Pravidlo aktualizace
 
@@ -37,14 +37,14 @@ Po dokončení každého úkolu vždy aktualizuj tento soubor:
 
 ## 🦊 FÁZE 2 — TOLY
 
-**Stav: 63 %** (5 / 8)
+**Stav: 75 %** (6 / 8)
 
 - [x] Navrhnout vzhled TOLYHO
 - [x] Vytvořit základní sprite TOLYHO
 - [x] Vytvořit animaci běhu
 - [x] Vytvořit animaci skoku
 - [x] Vytvořit animaci zásahu
-- [ ] Vytvořit animaci smrti
+- [x] Vytvořit animaci smrti
 - [ ] Přidat jednoduché zvuky
 - [ ] Otestovat velikost a čitelnost TOLYHO na displeji Seekeru
 
@@ -296,6 +296,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Přidána dvousnímková 16bitová animace běhu TOLYHO.
 - Přidána 16bitová animace skoku; TOLY na úvodní obrazovce pravidelně běží a skáče.
 - Přidána animace zásahu: červené bliknutí TOLYHO a pád černého telefonu.
+- Přidána animace smrti: 16bitový rozprsk a pád 10 černých telefonů mimo obrazovku.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.
