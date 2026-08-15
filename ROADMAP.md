@@ -4,12 +4,12 @@ Tento soubor je společný zdroj pravdy pro stav projektu. Úkol označte jako h
 
 ## Celkový stav
 
-`█████░░░░░ 5 %` — 7 z 139 vývojových úkolů dokončeno
+`██████░░░░ 6 %` — 8 z 139 vývojových úkolů dokončeno
 
 ## Aktuálně děláme
 
-**FÁZE 1 — ZÁKLAD PROJEKTU**  
-Úkol: Vytvořit první GitHub repository
+**FÁZE 2 — TOLY**  
+Úkol: Navrhnout vzhled TOLYHO
 
 ## Pravidlo aktualizace
 
@@ -24,14 +24,14 @@ Po dokončení každého úkolu vždy aktualizuj tento soubor:
 
 ## 🟢 FÁZE 1 — ZÁKLAD PROJEKTU
 
-**Stav: 88 %** (7 / 8)
+**Stav: 100 %** (8 / 8)
 
 - [x] Založit projekt `TOLY Run`
 - [x] Připravit složky projektu
 - [x] Nastavit HTML + CSS + JavaScript
 - [x] Ověřit spuštění hry v Chrome
 - [x] Nastavit Git
-- [ ] Vytvořit první GitHub repository
+- [x] Vytvořit první GitHub repository
 - [x] Připravit základní README
 - [x] Domluvit základní rozlišení a orientaci hry pro Seeker
 
@@ -289,6 +289,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Přidán README s pravidlem, že herní prostředí je v angličtině.
 - Inicializován Git repozitář.
 - Ověřeno spuštění úvodní obrazovky v Chrome.
+- Vytvořen a propojen GitHub repozitář `rickcz-cz/toly-run`.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.
