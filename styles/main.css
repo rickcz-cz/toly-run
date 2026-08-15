@@ -50,6 +50,7 @@ h1 span { color: #ff7a51; }
   width: min(58vw, 260px);
   height: auto;
   margin: 14px auto -20px;
+  image-rendering: pixelated;
 }
 
 .tagline {
