@@ -35,7 +35,9 @@ The cap and jacket stripe should use a left-to-right gradient from Solana purple
 
 ## Gameplay scale and orientation
 
-TOLY Run is designed for **portrait orientation**. The large TOLY shown on the start screen is promotional only. During a run, TOLY should be anchored near the left side of the game area and displayed at roughly **22–28% of the screen width** (about 90–110 CSS pixels on the 390 px reference viewport). This leaves the right side clear for upcoming obstacles and gives the jump visible height. Landscape orientation is not a gameplay target.
+The start screen may be viewed in portrait, but TOLY Run gameplay is designed for **landscape orientation**. On PLAY, the game will enter fullscreen and request a landscape orientation lock. The final Android/PWA release will declare landscape as its app orientation; if a browser does not allow the lock, the game will display a clear English “Rotate your device” prompt.
+
+The large TOLY shown on the start screen is promotional only. During a run, TOLY should be anchored near the left side of the game area and displayed at roughly **25–32% of the available screen height** (about 100–125 CSS pixels on the 844 × 390 landscape reference viewport). This leaves the full horizontal space clear for upcoming obstacles and gives the jump visible height.
 
 ## Animation notes
 

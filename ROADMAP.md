@@ -297,7 +297,7 @@ První verze obsahuje pouze tyto herní prvky:
 - Přidána 16bitová animace skoku; TOLY na úvodní obrazovce pravidelně běží a skáče.
 - Přidána animace zásahu: červené bliknutí TOLYHO a pád černého telefonu.
 - Přidána animace smrti: 16bitový rozprsk a pád 10 černých telefonů mimo obrazovku.
-- Potvrzena orientace hry na výšku; TOLY bude při samotném runu výrazně menší než na úvodní obrazovce.
+- Potvrzena hra na ležato: po PLAY se aktivuje fullscreen a požadavek na uzamčení ležaté orientace; TOLY bude při runu výrazně menší než na úvodní obrazovce.
 - Rozhodnuto: hra bude vytvořena v HTML, CSS a JavaScriptu.
 - Rozhodnuto: MVP bude bez blockchainu.
 - Rozhodnuto: TOLY začíná se 3 životy.

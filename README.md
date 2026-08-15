@@ -8,12 +8,13 @@ Open `index.html` in a browser. The project uses plain HTML, CSS, and JavaScript
 
 ## Design baseline
 
-- Primary orientation: portrait.
+- Start screen orientation: portrait permitted.
+- Gameplay orientation: landscape, requested after the player presses PLAY.
 - Target device: Solana Seeker.
-- Reference viewport: 390 × 844 CSS pixels.
+- Gameplay reference viewport: 844 × 390 CSS pixels.
 - The layout must stay usable from 320 px wide and respect phone safe areas.
 - All in-game text, controls, and messages are in English.
-- The large character on the start screen is not gameplay scale; in a run, TOLY will use roughly 22–28% of the screen width and stay near the left side.
+- The large character on the start screen is not gameplay scale; in a run, TOLY will use roughly 25–32% of the available height and stay near the left side.
 
 ## Project structure
 
