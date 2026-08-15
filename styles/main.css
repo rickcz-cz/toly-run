@@ -1,0 +1,55 @@
+:root {
+  color-scheme: dark;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #15111f;
+  color: #fff7ee;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+}
+
+.app-shell {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: max(24px, env(safe-area-inset-top)) max(24px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(24px, env(safe-area-inset-left));
+  background:
+    radial-gradient(circle at 50% 24%, #764754 0, transparent 36%),
+    linear-gradient(160deg, #2e203a, #15111f 65%);
+}
+
+.start-screen { text-align: center; }
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #ffc658;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(3.5rem, 16vw, 7rem);
+  font-style: italic;
+  letter-spacing: -0.08em;
+  line-height: 0.82;
+}
+
+h1 span { color: #ff7a51; }
+
+.tagline {
+  margin: 28px 0 0;
+  font-size: clamp(0.8rem, 3.2vw, 1rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.coming-soon { color: #d8c7d8; margin-top: 48px; }
